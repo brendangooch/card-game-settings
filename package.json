@@ -1,0 +1,39 @@
+{
+    "name": "@brendangooch/card-game-settings",
+    "version": "1.0.0",
+    "description": "a tiny collection of game setting components for various games of cards",
+    "author": "B Gooch <brendangooch@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p tsconfig.prod.json",
+        "build-dev": "npm run prebuild && tsc",
+        "prebuild": "npm run remove-lib",
+        "prepack": "npm run build",
+        "remove-lib": "rm -rf lib"
+    },
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "exports": {
+        ".": "./lib/index.js"
+    },
+    "types": "./lib/index.d.ts",
+    "files": [
+        "/lib"
+    ],
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brendangooch/card-game-settings.git"
+    },
+    "homepage": "https://github.com/brendangooch/card-game-settings#readme",
+    "bugs": {
+        "url": "https://github.com/brendangooch/card-game-settings/issues",
+        "email": "brendangooch@gmail.com"
+    },
+    "keywords": []
+}

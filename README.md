@@ -1,2 +1,2 @@
 # card-game-settings
-a configurable object with common card game settings, plus a readonly version
+a tiny collection of game setting components for various games of cards
