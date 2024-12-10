@@ -1,9 +1,9 @@
 
 v1.1.0
-    added empty CardGameSettings class that all games extend; this is passed to all core game objects on init()
+added empty CardGameSettings class that all games extend; this is passed to all core game objects on init()
 
 v2.0.0
-    completely-refactored
-    games now extend the CardGameSettings class and load their setting params on instantiation
-    ALL settings are numeric
-    client code has the option of a numeric setting, a key-value setting or an enum setting
+completely-refactored
+games now extend the CardGameSettings class and load their setting params on instantiation
+ALL settings are numeric
+client code has the option of a numeric setting, a key-value setting or an enum setting
