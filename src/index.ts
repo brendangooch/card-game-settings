@@ -2,11 +2,7 @@
  * package barrel file
  */
 
-export type tGameDifficulty = 'beginner' | 'easy' | 'normal' | 'hard' | 'expert';
-export type tGameMode = 'demo' | 'client' | 'server';
-
 export { CardGameSettings } from "./card-game-settings.js";
-export { DifficultySetting } from "./difficulty-setting.js";
-export { ModeSetting } from "./mode-setting.js";
 export { NumericSetting } from "./numeric-setting.js";
-export { TimeLimitSetting } from "./time-limit-setting.js";
+export { KeyValueSetting } from "./key-value-setting.js";
+export { ENumSetting } from "./enum-setting.js";
